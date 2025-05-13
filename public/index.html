@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/root.css">
+</head>
+<body>
+<header class="header" id="1">
+    <div class="header__container container">
+        <div class="header__left">
+            <a class="header__logo" href="1">
+                <img class="header__logo-img" src="img/logo.svg" alt="glorbo logo">
+            </a>
+        </div>
+        <h2 class="header__welcome">WELCOME, user</h2>  
+        <nav class="header__navigation">
+            <ul class="header__list list-reset">
+                <li class="header__item"><a class="header__link" href="#">Info</a></li>
+                <li class="header__item"><a class="header__link" href="#">AIchat</a></li>
+                <li class="header__item"><a class="header__link" href="#">About us</a></li>
+            </ul>
+            <label class="header__checkbox checkbox-ios">
+                <input type="checkbox">
+                <span class="checkbox-ios-switch"></span>
+            </label>
+        </nav>
+    </div>
+</header>
+
+<section class="hero">
+  <div class="hero__container container">
+    <div class="hero__top">
+      <h2 class="hero__title">Погрузитесь в&nbsp;историю с&nbsp;умным помощником</h2>
+      <h3 class="hero__subtitle">AI.glorbo</h3>
+    </div>
+    <ul class="hero__list list-reset">
+      <li class="hero__item">Ваш персональный эксперт в&nbsp;мире исторических событий
+      Исторический AI.glorbo чат&mdash; это уникальный сервис, где вы&nbsp;можете получить подробную информацию о&nbsp;любых исторических событиях в&nbsp;удобной форме диалога с&nbsp;искусственным интеллектом.</li>
+      <li class="hero__item">Глубокое погружение в&nbsp;исторические процессы благодаря передовым технологиям на&nbsp;базе DeepSeek. Наша нейронная сеть способна предоставить детальные и&nbsp;точные ответы на&nbsp;ваши вопросы, опираясь на&nbsp;обширную базу исторических данных.</li>
+      <li class="hero__item">Простота использования&nbsp;&mdash; задавайте вопросы в&nbsp;свободной форме, как если&nbsp;бы общались с&nbsp;профессиональным историком. Система адаптируется под ваш стиль общения и&nbsp;уровень знаний.</li>
+      <li class="hero__item">Актуальность информации&nbsp;&mdash; регулярное обновление базы данных позволяет предоставлять самые свежие исторические исследования и&nbsp;факты.</li>
+      <li class="hero__item">Начните свое путешествие в&nbsp;прошлое прямо сейчас! Задайте первый вопрос нашему историческому ИИ-помощнику и&nbsp;откройте для себя новые грани истории.</li>
+      <li class="hero__item">Присоединяйтесь к&nbsp;тысячам пользователей, которые уже получают удовольствие от&nbsp;увлекательных исторических бесед с&nbsp;искусственным интеллектом.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="chat">
+  <div class="chat__container container">
+    <div class="chat__top">
+      <h2 class="chat__title">Начние чат с&nbsp;<span>AIglorbo</span> прямо сейчас</h2>
+    </div>
+    <div class="chat__wrapper">
+      <div class="chat__requests">
+        <!-- <div class="chat__request"><p class="chat__answer">answer</p></div> -->
+      </div>
+      <div class="chat__chatting"></div>
+    </div>
+    <div class="form-wrapper">
+        <form class="form-message" action="">
+          <input class="form-message__input" placeholder="Введите сообщения для&nbsp;ai" type="text" name="message" id="">
+          <button type="submit" class="form-message__btn btn-reset"><img class="form-message__btn-img" src="img/send.png" alt=""></button>
+        </form>
+      </div>
+  </div>
+</section>
+    <script src="ai-connection.js"></script>
+</body>
+</html>

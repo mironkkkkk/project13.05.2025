@@ -1,0 +1,5 @@
+1 запустить OpenServer [база: glodroAI], таблицы [userData (id, login, password)]
+2 в консоль написать npm run server
+3 перейти по ссылке localhost
+4 регистрация , после для входа добавить в адрес строки /login и войти
+ 
